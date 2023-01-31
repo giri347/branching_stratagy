@@ -13,8 +13,8 @@ resource "azurerm_storage_account" "appstore151694" {
 
 }
 
-resource "azurerm_storage_container" "data123" {
-  name                  = "data123"
+resource "azurerm_storage_container" "data1234" {
+  name                  = "data1234"
   storage_account_name  = "appstore151694"
   container_access_type = "blob"
   depends_on = [
